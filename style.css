@@ -1,0 +1,59 @@
+body {
+    background-color: grey;
+}
+
+section {
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+    border: 1px solid yellow;
+}
+
+div {
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+.automobili {
+    background-color: white;
+}
+
+.telefoni {
+    background-color: #eee;
+}
+
+.racunari {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.racunari h2 {
+    text-align: left;
+}
+
+.poslednja-sekcija {
+    background-color: blue;
+    height: 300px;
+    width: 500px;
+}
+
+.automobili div {
+    width: 300px;
+    display: inline-block;
+    background-color: #eee;
+    text-align: center;
+}
+
+.telefoni {
+    display: flex;
+}
+
+.telefoni div {
+    width: 32%;
+    padding: 15px;
+}
